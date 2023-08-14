@@ -26,7 +26,7 @@ const pizzas = [
 			"Parmesano",
 			"Roquefort",
 		],
-		imagen: "./img/4quesos.png",
+		imagen: "./img/cuatroquesos.png",
 	},
 
 	{
