@@ -66,7 +66,7 @@ function searchPizza(event) {
 	} else {
 		const error = document.createElement("div");
 		error.className = "error";
-		error.textContent = "Pizza not found.";
+		error.textContent = "No se encontró pizza";
 		resultContainer.innerHTML = "";
 		resultContainer.appendChild(error);
 	}
