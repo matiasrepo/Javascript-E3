@@ -1,41 +1,85 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #f4f4f4;
-}
-
-.container {
-  text-align: center;
-  background-color: white;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-#resultContainer {
-  margin-top: 20px;
-}
-
-.card {
-  border: 1px solid #ccc;
-  padding: 10px;
-  margin-top: 10px;
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-}
-
-.card img {
-  max-width: 100px;
-  margin-right: 10px;
-}
-
-.error {
-  color: red;
-  margin-top: 10px;
-}
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0e6ef; /* Color de fondo pastel */
+  }
+  
+  .container {
+    text-align: center;
+    background-color: #fff; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #6b5b95; /* Color de título */
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    color: #8d86c9; /* Color de etiquetas */
+  }
+  
+  input[type="number"] {
+    padding: 8px;
+    border: 1px solid #d9d2e9; /* Color de borde */
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    padding: 8px 16px;
+    background-color: #6b5b95; /* Color de botón */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #a8dadc; /* Cambio de color al pasar el mouse */
+  }
+  
+  #errorContainer {
+    color: #e63946; /* Color de error */
+    margin-top: 10px;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card img {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .card h2 {
+    color: #457b9d; /* Color de título de la card */
+  }
+  
+  .card p {
+    color: #1d3557; /* Color de contenido de la card */
+  }
+  
+  /* Estilos para la clase de error */
+  .error {
+    color: #e63946; /* Color de error */
+    margin-top: 10px;
+  }
+  
